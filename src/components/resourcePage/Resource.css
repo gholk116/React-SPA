@@ -1,0 +1,96 @@
+.theader {
+    display: flex;
+    background-color: gray;
+    width: 805px;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    height: 40px;
+}
+.theader input {
+    height: 50%;
+    margin: 10px;
+}
+
+.theader input[type=button] {
+    background-color: orangered;
+    border: 1px solid black;
+    color: white;
+}
+
+.filter input {
+    margin-right: 1px;
+}
+
+.filter input[type=submit] {
+    margin-left: 1px;
+    background: transparent;
+    font-size: 0;
+    border: none !important;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 75px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    font-size: small;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p{
+    margin: 0;
+    padding: 5px 0px;
+}
+.dropdown-content p:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+table {
+    width: 805px;
+    empty-cells: show;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-padding: 0;
+    display: block;
+    max-height: 300px;
+}
+
+
+th, td{
+    text-align: left;
+    border: 1px solid black;
+    min-width: 191px;
+    
+    padding: 3px;
+
+}
+
+thead, tbody {
+    overflow-x: overlay;
+    width: 800px;
+    
+}
+
+tbody {
+    overflow-x: overlay;
+    overflow-y: overlay;
+    scroll-padding: 0;
+    max-height: 250px;
+    width: 800px;
+    /* padding: 0; */
+}

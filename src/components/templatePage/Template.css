@@ -1,0 +1,28 @@
+.Template {
+    display: flex;
+}
+.Container {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.SurveyHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.SurveyHeader input{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#x {
+    margin-left: 4px;
+    background-color: rgb(243, 98, 98)
+}
+
+.Container input {
+    margin-right: 5px;
+}

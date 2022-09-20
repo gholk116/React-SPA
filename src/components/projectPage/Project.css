@@ -1,0 +1,73 @@
+.projectpageheader {
+    display: flex;
+    background-color: gray;
+    width: 402px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+}
+.projectpageheader input {
+    height: 50%;
+    margin: 10px;
+}
+
+.projectpageheader input[type=button] {
+    background-color: orangered;
+    border: 1px solid black;
+    color: white;
+    margin-left: 50px;
+}
+
+.twotable {
+    display: flex;
+}
+
+.child {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.child table {
+    width: 402px;
+    empty-cells: show;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-padding: 0;
+    display: block;
+    max-height: 250px;
+}
+
+
+
+.child th, td{
+    text-align: left;
+    border: 1px solid black;
+    min-width: 191px;
+    padding: 3px;
+
+}
+
+#checkboxCol {
+    min-width: 30px;
+    vertical-align: middle;
+    
+}
+
+
+
+.child thead, tbody {
+    width: 400px;
+    
+}
+
+
+
+.child tbody {
+    scroll-padding: 0;
+}
+
